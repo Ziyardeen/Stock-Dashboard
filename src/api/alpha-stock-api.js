@@ -1,11 +1,10 @@
 import axios from "axios";
 import { filterStock } from "../helpers/date-helper";
-import SearchResults from "../components/SearchResults";
-import { error } from "ajv/dist/vocabularies/applicator/dependencies";
 
 const baseURL = "https://alpha-vantage.p.rapidapi.com";
-const apiKey = "d909d9eeb1mshf30fcff26ba595dp17ff0ajsn383e8fa50070";
-const apiKey1 = "8a9595d8demshb06071760787a2ap1d293ejsn005267f3b2ec";
+const apiKey = process.env.REACT_APP_ALPHA_RAPID_1_API_KEY;
+const apiKey1 = process.env.REACT_APP_ALPHA_RAPID_2_API_KEY;
+const finModApi = process.env.REACT_APP_FINMOD_API_KEY;
 
 export const searchSymbol = async (query) => {
   try {
@@ -56,7 +55,7 @@ export const fetchStockDetails = async (stockSymbol) => {
 export const fetchDetails = async (stockSymbol) => {
   try {
     const response = await axios.get(
-      `https://financialmodelingprep.com/api/v3/profile/${stockSymbol}?apikey=1RcrWN2kM3SqWTFXEFhxOkj9kZAbhm7i`
+      `https://financialmodelingprep.com/api/v3/profile/${stockSymbol}?apikey=${finModApi}`
     );
 
     const data = response.data[0];
@@ -94,7 +93,7 @@ export const fetchQuote = async (stockSymbol) => {
 export const fetchHourlyDataFin = async (stockSymbol) => {
   try {
     const response = await axios.get(
-      `https://financialmodelingprep.com/api/v3/historical-chart/1hour/${stockSymbol}?&apikey=1RcrWN2kM3SqWTFXEFhxOkj9kZAbhm7i`
+      `https://financialmodelingprep.com/api/v3/historical-chart/1hour/${stockSymbol}?&apikey=${finModApi}`
     );
 
     const data = response.data.slice(0, 24);
@@ -108,7 +107,7 @@ export const fetchHourlyDataFin = async (stockSymbol) => {
 export const fetchHistoricData = async (stockSymbol, filter) => {
   try {
     const response = await axios.get(
-      `https://financialmodelingprep.com/api/v3/historical-price-full/${stockSymbol}?apikey=1RcrWN2kM3SqWTFXEFhxOkj9kZAbhm7i`
+      `https://financialmodelingprep.com/api/v3/historical-price-full/${stockSymbol}?apikey=${finModApi}`
     );
 
     switch (filter) {
