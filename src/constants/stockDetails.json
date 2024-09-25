@@ -1,0 +1,938 @@
+[
+  {
+    "Name": "Apple Inc.",
+    "Symbol": "AAPL",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "2490000000000",
+    "Industry": "Consumer Electronics"
+  },
+  {
+    "Name": "Microsoft Corporation",
+    "Symbol": "MSFT",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "2280000000000",
+    "Industry": "Software"
+  },
+  {
+    "Name": "Amazon.com, Inc.",
+    "Symbol": "AMZN",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "1430000000000",
+    "Industry": "E-commerce"
+  },
+  {
+    "Name": "Alphabet Inc.",
+    "Symbol": "GOOGL",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "1640000000000",
+    "Industry": "Internet Content & Information"
+  },
+  {
+    "Name": "Tesla, Inc.",
+    "Symbol": "TSLA",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "780000000000",
+    "Industry": "Automobiles"
+  },
+  {
+    "Name": "Berkshire Hathaway Inc.",
+    "Symbol": "BRK.A",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "750000000000",
+    "Industry": "Holding Companies"
+  },
+  {
+    "Name": "Meta Platforms, Inc.",
+    "Symbol": "META",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "780000000000",
+    "Industry": "Social Media"
+  },
+  {
+    "Name": "Johnson & Johnson",
+    "Symbol": "JNJ",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "430000000000",
+    "Industry": "Pharmaceuticals"
+  },
+  {
+    "Name": "Visa Inc.",
+    "Symbol": "V",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "500000000000",
+    "Industry": "Financial Services"
+  },
+  {
+    "Name": "Procter & Gamble Co.",
+    "Symbol": "PG",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "400000000000",
+    "Industry": "Household Products"
+  },
+  {
+    "Name": "Walmart Inc.",
+    "Symbol": "WMT",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "350000000000",
+    "Industry": "Retail"
+  },
+  {
+    "Name": "NVIDIA Corporation",
+    "Symbol": "NVDA",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "1200000000000",
+    "Industry": "Semiconductors"
+  },
+  {
+    "Name": "The Coca-Cola Company",
+    "Symbol": "KO",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "270000000000",
+    "Industry": "Beverages"
+  },
+  {
+    "Name": "PepsiCo, Inc.",
+    "Symbol": "PEP",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "250000000000",
+    "Industry": "Beverages"
+  },
+  {
+    "Name": "Intel Corporation",
+    "Symbol": "INTC",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "210000000000",
+    "Industry": "Semiconductors"
+  },
+  {
+    "Name": "Caterpillar Inc.",
+    "Symbol": "CAT",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "110000000000",
+    "Industry": "Construction & Farm Machinery"
+  },
+  {
+    "Name": "Salesforce, Inc.",
+    "Symbol": "CRM",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "210000000000",
+    "Industry": "Software"
+  },
+  {
+    "Name": "McDonald's Corporation",
+    "Symbol": "MCD",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "200000000000",
+    "Industry": "Restaurants"
+  },
+  {
+    "Name": "The Home Depot, Inc.",
+    "Symbol": "HD",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "300000000000",
+    "Industry": "Retail"
+  },
+  {
+    "Name": "Pfizer Inc.",
+    "Symbol": "PFE",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "210000000000",
+    "Industry": "Pharmaceuticals"
+  },
+  {
+    "Name": "Walt Disney Company",
+    "Symbol": "DIS",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "180000000000",
+    "Industry": "Entertainment"
+  },
+  {
+    "Name": "Netflix, Inc.",
+    "Symbol": "NFLX",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "170000000000",
+    "Industry": "Entertainment"
+  },
+  {
+    "Name": "IBM Corporation",
+    "Symbol": "IBM",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "120000000000",
+    "Industry": "Technology Services"
+  },
+  {
+    "Name": "AT&T Inc.",
+    "Symbol": "T",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "180000000000",
+    "Industry": "Telecommunications"
+  },
+  {
+    "Name": "Starbucks Corporation",
+    "Symbol": "SBUX",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "120000000000",
+    "Industry": "Restaurants"
+  },
+  {
+    "Name": "Lockheed Martin Corporation",
+    "Symbol": "LMT",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "110000000000",
+    "Industry": "Aerospace & Defense"
+  },
+  {
+    "Name": "American Express Company",
+    "Symbol": "AXP",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "110000000000",
+    "Industry": "Financial Services"
+  },
+  {
+    "Name": "Honeywell International Inc.",
+    "Symbol": "HON",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "160000000000",
+    "Industry": "Conglomerates"
+  },
+  {
+    "Name": "Boeing Company",
+    "Symbol": "BA",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "100000000000",
+    "Industry": "Aerospace & Defense"
+  },
+  {
+    "Name": "AbbVie Inc.",
+    "Symbol": "ABBV",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "180000000000",
+    "Industry": "Pharmaceuticals"
+  },
+  {
+    "Name": "CVS Health Corporation",
+    "Symbol": "CVS",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "130000000000",
+    "Industry": "Healthcare"
+  },
+  {
+    "Name": "Nike, Inc.",
+    "Symbol": "NKE",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "170000000000",
+    "Industry": "Footwear & Accessories"
+  },
+  {
+    "Name": "Lowe's Companies, Inc.",
+    "Symbol": "LOW",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "150000000000",
+    "Industry": "Retail"
+  },
+  {
+    "Name": "United Parcel Service, Inc.",
+    "Symbol": "UPS",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "130000000000",
+    "Industry": "Transportation"
+  },
+  {
+    "Name": "Cisco Systems, Inc.",
+    "Symbol": "CSCO",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "210000000000",
+    "Industry": "Networking"
+  },
+  {
+    "Name": "Broadcom Inc.",
+    "Symbol": "AVGO",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "220000000000",
+    "Industry": "Semiconductors"
+  },
+  {
+    "Name": "Abbott Laboratories",
+    "Symbol": "ABT",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "220000000000",
+    "Industry": "Healthcare"
+  },
+  {
+    "Name": "Goldman Sachs Group, Inc.",
+    "Symbol": "GS",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "120000000000",
+    "Industry": "Financial Services"
+  },
+  {
+    "Name": "Salesforce.com, Inc.",
+    "Symbol": "CRM",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "210000000000",
+    "Industry": "Software"
+  },
+  {
+    "Name": "T-Mobile US, Inc.",
+    "Symbol": "TMUS",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "170000000000",
+    "Industry": "Telecommunications"
+  },
+  {
+    "Name": "Target Corporation",
+    "Symbol": "TGT",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "100000000000",
+    "Industry": "Retail"
+  },
+  {
+    "Name": "eBay Inc.",
+    "Symbol": "EBAY",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "20000000000",
+    "Industry": "E-commerce"
+  },
+  {
+    "Name": "Qualcomm Incorporated",
+    "Symbol": "QCOM",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "120000000000",
+    "Industry": "Semiconductors"
+  },
+  {
+    "Name": "PayPal Holdings, Inc.",
+    "Symbol": "PYPL",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "100000000000",
+    "Industry": "Financial Technology"
+  },
+  {
+    "Name": "Adobe Inc.",
+    "Symbol": "ADBE",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "140000000000",
+    "Industry": "Software"
+  },
+  {
+    "Name": "Booking Holdings Inc.",
+    "Symbol": "BKNG",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "100000000000",
+    "Industry": "Travel Services"
+  },
+  {
+    "Name": "Ford Motor Company",
+    "Symbol": "F",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "50000000000",
+    "Industry": "Automobiles"
+  },
+  {
+    "Name": "General Electric Company",
+    "Symbol": "GE",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "120000000000",
+    "Industry": "Conglomerates"
+  },
+  {
+    "Name": "Hewlett Packard Enterprise Company",
+    "Symbol": "HPE",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "30000000000",
+    "Industry": "Information Technology"
+  },
+  {
+    "Name": "Texas Instruments Incorporated",
+    "Symbol": "TXN",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "160000000000",
+    "Industry": "Semiconductors"
+  },
+  {
+    "Name": "Snap Inc.",
+    "Symbol": "SNAP",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "18000000000",
+    "Industry": "Social Media"
+  },
+  {
+    "Name": "NIO Inc.",
+    "Symbol": "NIO",
+    "Country": "China",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "30000000000",
+    "Industry": "Automobiles"
+  },
+  {
+    "Name": "Alibaba Group Holding Limited",
+    "Symbol": "BABA",
+    "Country": "China",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "280000000000",
+    "Industry": "E-commerce"
+  },
+  {
+    "Name": "Tencent Holdings Limited",
+    "Symbol": "TCEHY",
+    "Country": "China",
+    "Currency": "USD",
+    "Exchange": "OTC",
+    "MarketCapitalization": "450000000000",
+    "Industry": "Internet Content & Information"
+  },
+  {
+    "Name": "Baidu, Inc.",
+    "Symbol": "BIDU",
+    "Country": "China",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "45000000000",
+    "Industry": "Internet Content & Information"
+  },
+  {
+    "Name": "JD.com, Inc.",
+    "Symbol": "JD",
+    "Country": "China",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "100000000000",
+    "Industry": "E-commerce"
+  },
+  {
+    "Name": "Meituan",
+    "Symbol": "MPNGF",
+    "Country": "China",
+    "Currency": "USD",
+    "Exchange": "OTC",
+    "MarketCapitalization": "200000000000",
+    "Industry": "E-commerce"
+  },
+  {
+    "Name": "Pinduoduo Inc.",
+    "Symbol": "PDD",
+    "Country": "China",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "70000000000",
+    "Industry": "E-commerce"
+  },
+  {
+    "Name": "Li Auto Inc.",
+    "Symbol": "LI",
+    "Country": "China",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "25000000000",
+    "Industry": "Automobiles"
+  },
+  {
+    "Name": "XPeng Inc.",
+    "Symbol": "XPEV",
+    "Country": "China",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "15000000000",
+    "Industry": "Automobiles"
+  },
+  {
+    "Name": "Nokia Corporation",
+    "Symbol": "NOK",
+    "Country": "Finland",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "20000000000",
+    "Industry": "Telecommunications Equipment"
+  },
+  {
+    "Name": "Ericsson",
+    "Symbol": "ERIC",
+    "Country": "Sweden",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "20000000000",
+    "Industry": "Telecommunications Equipment"
+  },
+  {
+    "Name": "Siemens AG",
+    "Symbol": "SIEGY",
+    "Country": "Germany",
+    "Currency": "USD",
+    "Exchange": "OTC",
+    "MarketCapitalization": "120000000000",
+    "Industry": "Conglomerates"
+  },
+  {
+    "Name": "Volkswagen AG",
+    "Symbol": "VWAGY",
+    "Country": "Germany",
+    "Currency": "USD",
+    "Exchange": "OTC",
+    "MarketCapitalization": "100000000000",
+    "Industry": "Automobiles"
+  },
+  {
+    "Name": "Royal Dutch Shell plc",
+    "Symbol": "RDS.A",
+    "Country": "Netherlands",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "160000000000",
+    "Industry": "Oil & Gas"
+  },
+  {
+    "Name": "BP plc",
+    "Symbol": "BP",
+    "Country": "United Kingdom",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "100000000000",
+    "Industry": "Oil & Gas"
+  },
+  {
+    "Name": "Exxon Mobil Corporation",
+    "Symbol": "XOM",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "400000000000",
+    "Industry": "Oil & Gas"
+  },
+  {
+    "Name": "Chevron Corporation",
+    "Symbol": "CVX",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "200000000000",
+    "Industry": "Oil & Gas"
+  },
+  {
+    "Name": "ConocoPhillips",
+    "Symbol": "COP",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "90000000000",
+    "Industry": "Oil & Gas"
+  },
+  {
+    "Name": "Cigna Corporation",
+    "Symbol": "CI",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "140000000000",
+    "Industry": "Healthcare"
+  },
+  {
+    "Name": "Anthem, Inc.",
+    "Symbol": "ANTM",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "120000000000",
+    "Industry": "Healthcare"
+  },
+  {
+    "Name": "UnitedHealth Group Incorporated",
+    "Symbol": "UNH",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "500000000000",
+    "Industry": "Healthcare"
+  },
+  {
+    "Name": "AstraZeneca PLC",
+    "Symbol": "AZN",
+    "Country": "United Kingdom",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "180000000000",
+    "Industry": "Pharmaceuticals"
+  },
+  {
+    "Name": "Novartis AG",
+    "Symbol": "NVS",
+    "Country": "Switzerland",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "200000000000",
+    "Industry": "Pharmaceuticals"
+  },
+  {
+    "Name": "Sanofi",
+    "Symbol": "SNY",
+    "Country": "France",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "100000000000",
+    "Industry": "Pharmaceuticals"
+  },
+  {
+    "Name": "GlaxoSmithKline plc",
+    "Symbol": "GSK",
+    "Country": "United Kingdom",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "110000000000",
+    "Industry": "Pharmaceuticals"
+  },
+  {
+    "Name": "Aon plc",
+    "Symbol": "AON",
+    "Country": "Ireland",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "100000000000",
+    "Industry": "Insurance"
+  },
+  {
+    "Name": "Marsh & McLennan Companies, Inc.",
+    "Symbol": "MMC",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "70000000000",
+    "Industry": "Insurance"
+  },
+  {
+    "Name": "Prudential Financial, Inc.",
+    "Symbol": "PRU",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "100000000000",
+    "Industry": "Insurance"
+  },
+  {
+    "Name": "American International Group, Inc.",
+    "Symbol": "AIG",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "50000000000",
+    "Industry": "Insurance"
+  },
+  {
+    "Name": "T Rowe Price Group, Inc.",
+    "Symbol": "TROW",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NASDAQ",
+    "MarketCapitalization": "30000000000",
+    "Industry": "Financial Services"
+  },
+  {
+    "Name": "BlackRock, Inc.",
+    "Symbol": "BLK",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "100000000000",
+    "Industry": "Financial Services"
+  },
+  {
+    "Name": "Morgan Stanley",
+    "Symbol": "MS",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "150000000000",
+    "Industry": "Financial Services"
+  },
+  {
+    "Name": "Wells Fargo & Company",
+    "Symbol": "WFC",
+    "Country": "USA",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "160000000000",
+    "Industry": "Financial Services"
+  },
+  {
+    "Name": "HSBC Holdings plc",
+    "Symbol": "HSBC",
+    "Country": "United Kingdom",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "160000000000",
+    "Industry": "Banking"
+  },
+  {
+    "Name": "Barclays PLC",
+    "Symbol": "BCS",
+    "Country": "United Kingdom",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "40000000000",
+    "Industry": "Banking"
+  },
+  {
+    "Name": "Royal Bank of Canada",
+    "Symbol": "RY",
+    "Country": "Canada",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "150000000000",
+    "Industry": "Banking"
+  },
+  {
+    "Name": "Toronto-Dominion Bank",
+    "Symbol": "TD",
+    "Country": "Canada",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "150000000000",
+    "Industry": "Banking"
+  },
+  {
+    "Name": "Walmart de México y Centroamérica",
+    "Symbol": "WMMVY",
+    "Country": "Mexico",
+    "Currency": "USD",
+    "Exchange": "OTC",
+    "MarketCapitalization": "20000000000",
+    "Industry": "Retail"
+  },
+  {
+    "Name": "Cemex S.A.B. de C.V.",
+    "Symbol": "CX",
+    "Country": "Mexico",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "15000000000",
+    "Industry": "Building Materials"
+  },
+  {
+    "Name": "Grupo Bimbo, S.A.B. de C.V.",
+    "Symbol": "BIMBOA",
+    "Country": "Mexico",
+    "Currency": "USD",
+    "Exchange": "OTC",
+    "MarketCapitalization": "12000000000",
+    "Industry": "Food Products"
+  },
+  {
+    "Name": "Grupo Aeroportuario del Pacífico, S.A.B. de C.V.",
+    "Symbol": "PAC",
+    "Country": "Mexico",
+    "Currency": "USD",
+    "Exchange": "OTC",
+    "MarketCapitalization": "9000000000",
+    "Industry": "Airports"
+  },
+  {
+    "Name": "América Móvil, S.A.B. de C.V.",
+    "Symbol": "AMX",
+    "Country": "Mexico",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "50000000000",
+    "Industry": "Telecommunications"
+  },
+  {
+    "Name": "B3 S.A. – Brasil, Bolsa, Balcão",
+    "Symbol": "B3SA3",
+    "Country": "Brazil",
+    "Currency": "BRL",
+    "Exchange": "B3",
+    "MarketCapitalization": "30000000000",
+    "Industry": "Financial Services"
+  },
+  {
+    "Name": "Petrobras - Petróleo Brasileiro S.A.",
+    "Symbol": "PBR",
+    "Country": "Brazil",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "50000000000",
+    "Industry": "Oil & Gas"
+  },
+  {
+    "Name": "Itaú Unibanco Holding S.A.",
+    "Symbol": "ITUB",
+    "Country": "Brazil",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "50000000000",
+    "Industry": "Banking"
+  },
+  {
+    "Name": "Banco Bradesco S.A.",
+    "Symbol": "BBD",
+    "Country": "Brazil",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "60000000000",
+    "Industry": "Banking"
+  },
+  {
+    "Name": "Vale S.A.",
+    "Symbol": "VALE",
+    "Country": "Brazil",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "75000000000",
+    "Industry": "Metals & Mining"
+  },
+  {
+    "Name": "Ambev S.A.",
+    "Symbol": "ABEV",
+    "Country": "Brazil",
+    "Currency": "USD",
+    "Exchange": "NYSE",
+    "MarketCapitalization": "25000000000",
+    "Industry": "Beverages"
+  },
+  {
+    "Name": "Magazine Luiza S.A.",
+    "Symbol": "MGLU3",
+    "Country": "Brazil",
+    "Currency": "BRL",
+    "Exchange": "B3",
+    "MarketCapitalization": "15000000000",
+    "Industry": "Retail"
+  },
+  {
+    "Name": "Grupo Globo",
+    "Symbol": "GLB",
+    "Country": "Brazil",
+    "Currency": "BRL",
+    "Exchange": "B3",
+    "MarketCapitalization": "10000000000",
+    "Industry": "Media"
+  },
+  {
+    "Name": "Lojas Americanas S.A.",
+    "Symbol": "LAME4",
+    "Country": "Brazil",
+    "Currency": "BRL",
+    "Exchange": "B3",
+    "MarketCapitalization": "8000000000",
+    "Industry": "Retail"
+  },
+  {
+    "Name": "Cielo S.A.",
+    "Symbol": "CIEL3",
+    "Country": "Brazil",
+    "Currency": "BRL",
+    "Exchange": "B3",
+    "MarketCapitalization": "6000000000",
+    "Industry": "Financial Services"
+  },
+  {
+    "Name": "Sadia S.A.",
+    "Symbol": "SDIA3",
+    "Country": "Brazil",
+    "Currency": "BRL",
+    "Exchange": "B3",
+    "MarketCapitalization": "5000000000",
+    "Industry": "Food Products"
+  }
+]
